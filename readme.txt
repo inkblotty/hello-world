@@ -37,4 +37,11 @@ GitHub Pages:
 ** GitHub automatically serves and hosts static website pages in branches marked "gh-pages". These sites are at:
 http://githubusername.github.io/repositoryname
 
-
+Branches:
+---------
+$ git checkout -b <BRANCHNAME> = creates and switches to a branch in one line
+$ git branch <BRANCHNAME> = creates a new branch
+$ git checkout <BRANCHNAME> = moves into the branch
+$ git branch = lists the branches
+$ git branch -m <NEWBRANCHNAME> = rename the current branch
+$ git status = verifies which branch you're in
