@@ -24,5 +24,5 @@ Push and pull files to/from GitHub:
 ** these changes after remote connection established and new repository with identical name is created on GitHub **
 $ git remove pull <REMOTENAME> <BRANCHNAME> = pulls changes from GitHub
 $ git remote -v = views remote connections
-$ git push <REMOTENAME> <BRANCHNAME> = pushes changes to GitHub
+$ git push <REMOTENAME> <BRANCHNAME> = pushes changes to GitHub (git push -u origin master, in this case)
 
