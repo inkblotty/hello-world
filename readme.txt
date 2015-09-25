@@ -45,3 +45,6 @@ $ git checkout <BRANCHNAME> = moves into the branch
 $ git branch = lists the branches
 $ git branch -m <NEWBRANCHNAME> = rename the current branch
 $ git status = verifies which branch you're in
+$ git pull <REMOTENAME> <BRANCHNAME> = pulls in changes from a remote branch (maybe added by other contributor)
+$ git fetch --dry-run = see changes to remote branch before pulling them in
+
